@@ -25,6 +25,7 @@ def operation1():
         elif oper == '*':
             return first * second
         elif oper == '/':
+            try:
             return first / second
         else:
             print('Некорректная операция')
